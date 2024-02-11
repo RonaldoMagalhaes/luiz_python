@@ -3,7 +3,7 @@
 
 condicao1 = False
 condicao2 = False
-condicao3 = True
+condicao3 = False
 condicao4 = True
 
 if condicao1:
