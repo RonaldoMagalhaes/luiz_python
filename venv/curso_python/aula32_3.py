@@ -7,16 +7,12 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 nome = input("Digite o seu primeiro nome: ")
 
 try:
-    if nome.isalpha():
-        l = len(nome)
-        if l <=4:
-            print("Seu nome é curto")
-        elif l <= 6:
+     l = len(nome)
+     if l <=4:
+        print("Seu nome é curto")
+     elif l <= 6:
             print("Seu nome é normal")
-        else:
+     else:
             print("Seu nome é muito grande")
-    else:
-        print("Erro => Valor incorreto para nome")
-
 except:
     print("Erro => Valor incorreto para nome")
